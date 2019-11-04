@@ -1,2 +1,2 @@
 # tiss-course-section-expand-collapse
-Adds expand/collapse buttons to TISS course tables
+A Firefox Plugin for adding expand/collapse buttons to TISS course sections

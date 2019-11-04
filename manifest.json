@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "TISS Expand Collapse",
+  "version": "1.0",
+
+  "description": "Adds expand/collapse buttons to TISS course tables",
+
+  "icons": {
+    "48": "icons/expand-collapse-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://tiss.tuwien.ac.at/education/favorites*"
+      ],
+      "js": [
+        "expand-collapse.js"
+      ]
+    }
+  ]
+}
